@@ -1,1 +1,2 @@
-# EmbedUR Training Modules
+# EmbedUR Training Modules [ProblemSolvingThroughProgrammingInC, Linux-Training]
+
