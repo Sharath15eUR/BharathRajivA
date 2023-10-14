@@ -1,0 +1,22 @@
+Environment Variables
+
+How can you determine the current setting for the secondary command prompt on your system? How can you change the secondary command prompt from the default value to your username?
+
+Answer: To find out the current setting for the secondary command prompt, you can run the following command:
+
+echo $PS2
+
+To change it from the default value to your username, use the following command:
+
+export PS2="\u> "
+
+--------------------------------------------------------------------
+How can you ensure that the mv command (used for renaming a file) always prompts for permission before overwriting an existing destination file?
+
+Answer: You can achieve this by using command switches, which are additional arguments preceded by a hyphen sign (e.g., -v, -i). Each command has its own set of switches that serve specific purposes or alter their behavior based on the switch used.
+For the mv command, you can use the -i switch to enable interactive operation. To make the mv command more interactive and always ask for permission, run the following command:
+
+alias mv="mv -i"
+
+From now on, whenever you use the mv command, it will prompt for permission before overwriting an existing file.
+----------------------------------------------------------------------
