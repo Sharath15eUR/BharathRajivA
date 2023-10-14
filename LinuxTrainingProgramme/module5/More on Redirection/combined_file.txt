@@ -1,0 +1,29 @@
+    1  type -a man
+    2  ls
+    3  cd /
+    4  ls
+    5  cd mnt/
+    6  ls
+    7  cd c
+    8  la
+    9  cd Users/
+   10  cd spide/BharathRajivA/
+   11  cd LinuxTrainingProgramme/
+   12  ls
+   13  cd module5
+   14  ls
+   15  cd AdvanceTopicsInAFunction/
+   16  ls
+   17  call.sh
+   18  sh call.sh
+   19  vim call.sh 
+   20  cat call.sh 
+   21  sh call.sh
+   22  clear
+   23  cd ..
+   24  ls
+   25  cd More\ on\ Redirection/
+   26  ls
+   27  sh Redirection.sh 
+   28  history >> out_file.txt
+This is the content of out_file.txt

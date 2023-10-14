@@ -1,0 +1,38 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 166964 12240 ?        Ss   Oct14   0:00 /sbin/init
+root           2  0.0  0.0   2324  1192 ?        Sl   Oct14   0:00 /init
+root           5  0.0  0.0   2352    80 ?        Sl   Oct14   0:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+root          40  0.0  0.1  47808 15260 ?        S<s  Oct14   0:00 /lib/systemd/systemd-journald
+root          64  0.0  0.0  21872  5812 ?        Ss   Oct14   0:00 /lib/systemd/systemd-udevd
+root          71  0.0  0.0   4492   152 ?        Ss   Oct14   0:00 snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root          75  0.0  0.0   4784  1676 ?        Ss   Oct14   0:01 snapfuse /var/lib/snapd/snaps/core22_607.snap /snap/core22/607 -o ro,nodev,allow_other,suid
+root          80  0.0  0.0   4624   204 ?        Ss   Oct14   0:00 snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root          83  0.0  0.0   4808  1888 ?        Ss   Oct14   0:03 snapfuse /var/lib/snapd/snaps/snapd_18933.snap /snap/snapd/18933 -o ro,nodev,allow_other,suid
+root          85  0.0  0.0   4964  1704 ?        Ss   Oct14   0:01 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_967.snap /snap/ubuntu-desktop-installer/967 -o ro,nodev,allow_other,suid
+systemd+      92  0.0  0.1  25260 12356 ?        Ss   Oct14   0:00 /lib/systemd/systemd-resolved
+root         106  0.0  0.0   4304  2616 ?        Ss   Oct14   0:00 /usr/sbin/cron -f -P
+message+     109  0.0  0.0   8588  4604 ?        Ss   Oct14   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         123  0.0  0.2  30128 18796 ?        Ss   Oct14   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       125  0.0  0.0 222400  5020 ?        Ssl  Oct14   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         127  0.0  0.6 1835888 53908 ?       Ssl  Oct14   0:01 /usr/lib/snapd/snapd
+root         133  0.0  0.0  15324  7440 ?        Ss   Oct14   0:00 /lib/systemd/systemd-logind
+root         187  0.0  0.0   4780  3340 ?        Ss   Oct14   0:00 /bin/bash /snap/ubuntu-desktop-installer/967/bin/subiquity-server
+root         196  0.0  0.0   3236  1072 hvc0     Ss+  Oct14   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         198  0.0  0.0   3192  1116 tty1     Ss+  Oct14   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         199  0.0  0.2 107220 21284 ?        Ssl  Oct14   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         330  0.1  0.9 515760 74876 ?        Sl   Oct14   0:06 /snap/ubuntu-desktop-installer/967/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/967/etc/subiquity/postinst.d
+root         369  0.0  0.0   2328   108 ?        Ss   Oct14   0:00 /init
+root         370  0.0  0.0   2344   112 ?        S    Oct14   0:00 /init
+boris        371  0.0  0.0   6304  5352 pts/0    Ss   Oct14   0:00 -bash
+root         373  0.0  0.0   7528  4688 pts/1    Ss   Oct14   0:00 /bin/login -f
+boris        413  0.0  0.1  16940  8584 ?        Ss   Oct14   0:00 /lib/systemd/systemd --user
+boris        426  0.0  0.0 169748  4376 ?        S    Oct14   0:00 (sd-pam)
+boris        439  0.0  0.0   6068  5040 pts/1    S+   Oct14   0:00 -bash
+root         457  0.1  0.4  42344 36480 ?        S    Oct14   0:07 python3 /snap/ubuntu-desktop-installer/967/usr/bin/cloud-init status --wait
+boris        629  0.0  0.1  18776 10676 pts/0    T    Oct14   0:00 vim SumOfN.sh
+boris        706  0.0  0.1  18816 10364 pts/0    T    Oct14   0:00 vim basic.sh
+root        1171  0.0  0.2 293048 22300 ?        Ssl  Oct14   0:00 /usr/libexec/packagekitd
+root        1175  0.0  0.0 234488  6620 ?        Ssl  Oct14   0:00 /usr/libexec/polkitd --no-debug
+boris       1482  0.0  0.1  18808 10444 pts/0    T    Oct14   0:00 vim FileSystem.sh
+boris       1903  0.0  0.0   4912  3648 pts/0    S+   00:31   0:00 bash process.sh
+boris       1907  0.0  0.0   7480  3224 pts/0    R+   00:31   0:00 ps aux

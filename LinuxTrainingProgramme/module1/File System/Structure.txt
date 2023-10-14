@@ -1,0 +1,10 @@
+.
+├── FileSystem.sh
+├── Structure.txt
+└── demodir
+    ├── also_inside_demo
+    │   ├── abc
+    │   └── abc_123
+    └── inside_demo
+
+5 directories, 2 files
