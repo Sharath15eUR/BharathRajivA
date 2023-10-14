@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Basics Of System Administration in Linux
 
 

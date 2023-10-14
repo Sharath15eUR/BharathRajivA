@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # 1. Try to get the first 10 lines from /etc/passwd
 
 echo "Using head command to get the first 10 lines from /etc/passwd"
