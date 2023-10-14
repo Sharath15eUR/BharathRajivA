@@ -1,0 +1,62 @@
+Module 1 	
+
+1.Introduction to Linux OS,Architecture and Kernel
+2.Ubuntu Desktop 16.04				
+3.Desktop Customization 16.04				
+4.Installing Software 16.04				
+5.Basic Commands					
+6.General Purpose Utilities in Linux			
+7.File System						
+8.Working with Regular Files				
+9.File Attributes					
+10.Redirection Pipes				
+11.Working with Linux Process
+				
+Module 2	
+
+12.The Linux Environment
+13.Basics of System Administration
+14.Simple filters
+15.The grep command
+16.More on grep command
+17.The sed command
+18.More on sed command
+19. awk command
+20. Linux networking tools - ping,traceroute,dig, nslookup,tcpdump, netstat
+21. Process management commands (top,fg,kill etc)
+22. Memory management commands - (/proc/meminfo)
+
+Module 3	
+
+1.Linux distributions and Scripting Languages
+2.Introduction to BASH Shell Scripting
+3.Basics of Shell Scripting
+4.Command Line arguments and Quoting
+5.Globbing and Export statement
+6.Array Operations in BASH
+7.More on Arrays
+8.Conditional execution
+9.Nested and multilevel if elsif statements
+Module 4	
+
+10.Logical Operators
+11.Arithmetic Comparison
+12.String and File attributes				
+13.Conditional Loops					
+14.More on Loops					
+15.Case statement					
+16.Using File Descriptors				
+17.Basics of functions					
+18.More on functions					
+19.Arrays and functions			
+	
+Module 5 	
+
+20.Advance topics in a function				
+21.Recursive function		
+22.Basics of Redirection (error handling)
+23.More on Redirection
+24.Here document and Here string
+25. Special parameters in scripting 
+26. Regular expressions in shell scripting
+27.Command Line argument parsing using getopts"
