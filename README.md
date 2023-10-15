@@ -1,7 +1,7 @@
 # EmbedUR Training Modules [ProblemSolvingThroughProgrammingInC, Linux-Training]
 
 <p align="center">
-  <b style="font-size: 22px">Directory Structure</b>
+  <b style="font-size: 24px">Directory Structure</b>
 </p>
 
 ```
@@ -10,7 +10,6 @@
 │   ├── Content
 │   ├── module1
 │   │   ├── Basic Commands
-│   │   │   ├── 
 │   │   │   └── basic.sh
 │   │   ├── File Attributes
 │   │   │   ├── example.txt
