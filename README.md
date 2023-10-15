@@ -1,6 +1,10 @@
 # EmbedUR Training Modules [ProblemSolvingThroughProgrammingInC, Linux-Training]
 
--------------------------- Directory Structre ----------------------------------
+<p align="center">
+  <b style="font-size: 22px">Directory Structure</b>
+</p>
+
+```
 .
 ├── LinuxTrainingProgramme
 │   ├── Content
@@ -179,3 +183,4 @@
 └── README.md
 
 57 directories, 119 files
+```
